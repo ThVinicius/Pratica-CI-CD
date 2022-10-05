@@ -11,7 +11,7 @@ services:
       - pg:/var/lib/postgresql/data
 
   node:
-    container_name: app_node
+    container_name: node_app
     build: .
     ports:
       - 5009:5000
