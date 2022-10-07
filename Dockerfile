@@ -8,4 +8,6 @@ EXPOSE 5000
 
 RUN npm i
 
-CMD ["npm", "run", "dev"]
+RUN npm run build
+
+CMD ["npm", "start"]
